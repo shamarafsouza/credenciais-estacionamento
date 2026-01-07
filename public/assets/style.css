@@ -1,0 +1,24 @@
+body { font-family: Arial, sans-serif; margin: 24px; }
+.container { max-width: 860px; margin: auto; }
+h1 { margin-bottom: 8px; }
+form { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+form label { font-size: 14px; }
+input[type="text"], input[type="date"], select {
+  padding: 8px; font-size: 14px; width: 100%;
+}
+
+.logo {
+  width: 10px;       /* 🔽 tamanho fixo da logo */
+  max-width: 50px;   /* 🔽 garante que não ultrapasse esse limite */
+  height: auto;      
+  display: block;
+  margin: 0 auto 10px auto /* centralizada */
+}
+button { padding: 10px 14px; cursor: pointer; }
+.row { display: flex; gap: 8px; align-items: center; }
+.help { color: #666; font-size: 13px; }
+nav a { margin-right: 12px; }
+.table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+.table th, .table td { border: 1px solid #ddd; padding: 8px; }
+.table th { background: #f3f3f3; text-align: left; }
+.badge { background: #eee; padding: 2px 8px; border-radius: 6px; font-size: 12px; }
